@@ -12,7 +12,7 @@ iris = datasets.load_iris()
 ### From a CSV file:
 ```python
 import pandas as pd
-irisDF = pd.read_csv('path/to/iris.csv')
+irisDF = pd.DateFrame(iris.data)
 ```
 
 ## 2. Explore the Dataset
