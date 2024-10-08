@@ -12,7 +12,7 @@ iris = datasets.load_iris()
 ### From a CSV file:
 ```python
 import pandas as pd
-irisDF = pd.DateFrame(iris.data)
+irisDF=pd.DataFrame(data=iris.data,columns=iris.feature_names)
 ```
 
 ## 2. Explore the Dataset
